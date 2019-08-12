@@ -44,3 +44,12 @@ dtoverlay=ramoops
 # Enable the UART (/dev/ttyAMA0) on the RPi3.
 enable_uart=1
 dtoverlay=pi3-miniuart-bt
+
+dtoverlay=waveshare35b-v2
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=1
+hdmi_mode=87
+hdmi_cvt 480 320 60 6 0 0 0
+hdmi_drive=2
+display_rotate=0
